@@ -2448,7 +2448,7 @@ module.exports = function() {
       });
     };
   }
-  if (browserDetails.version < 49) {
+  if (browserDetails.version < 50) {
     var origGetUserMedia = navigator.mediaDevices.getUserMedia.
         bind(navigator.mediaDevices);
     navigator.mediaDevices.getUserMedia = function(c) {
